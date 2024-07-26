@@ -4,5 +4,5 @@ image:
   tag: "1.19.6"
   pullPolicy: IfNotPresent
 service:
-  type: NodePort
+  type: ClusterIP
   port: 80
