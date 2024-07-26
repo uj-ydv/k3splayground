@@ -1,0 +1,6 @@
+replicaCount: 1
+image:
+  tag: "1.19.6"
+service:
+  type: NodePort
+  port: 80
