@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nginx-dev
+  name: nginx
 spec:
   replicas: 2
   template:
@@ -13,6 +13,6 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: nginx-dev-service
+  name: nginx
 spec:
-  type: NodePort
+  type: ClusterIP
