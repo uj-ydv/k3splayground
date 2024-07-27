@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: nginx
+spec:
+  type: NodePort # This will be overridden by environment-specific values
+  ports:
+    - port: 80
+      targetPort: 80
+  selector:
+    app: nginx
