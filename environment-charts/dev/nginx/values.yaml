@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: nginx
 spec:
-  replicas: 1
+  replicas: 2
   template:
     spec:
       containers:
@@ -15,4 +15,4 @@ kind: Service
 metadata:
   name: nginx
 spec:
-  type: ClusterIP
+  type: NodePort
