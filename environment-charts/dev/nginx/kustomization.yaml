@@ -1,4 +1,4 @@
 bases:
-  - ../../common-charts/nginx
+  - ../../../common-charts/nginx
 patchesStrategicMerge:
   - values.yaml
