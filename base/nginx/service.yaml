@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: nginx
 spec:
-  type: NodePort # This will be overridden by environment-specific values
+  type: ClusterIP # This will be overridden by environment-specific values
   ports:
     - port: 80
       targetPort: 80
