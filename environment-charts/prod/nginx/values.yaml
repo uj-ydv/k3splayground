@@ -15,4 +15,4 @@ kind: Service
 metadata:
   name: nginx
 spec:
-  type: LoadBalancer
+  type: NodePort
